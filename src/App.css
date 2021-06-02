@@ -1,38 +1,100 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 10px 250px 150px 150px;
+  grid-gap: 10px;
+}
+
+.warni {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bgcolor {
+  height: 100vh;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+  
+}
+
+.main {
+  border-radius: 20px;
+  height: 300px;
+  background: #161616;
+  box-shadow: 0px 2px 50px -10px rgba(0,0,0,0.5);
+  grid-row: 3;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  display: grid;
+  grid-template-columns: 7fr 1fr;
+  grid-template-rows: px 250px;
+}
+
+.mainPhoto {
+  width: 143px;
+  height: 300px;
+  border-radius: 0px 20px 20px 0px;
+  float: center;
+  grid-column: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+
+.info {
+  height: 55vh;
+  background-blend-mode: multiply;
+  background-color: #484747;
+  border: 2px solid #1f1f1f;
+  border-right: 2px solid #131e29;
+  background-size: cover;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  color: #000;
 }
 
-.App-link {
-  color: #61dafb;
+.infotext {
+  padding-left: 20px;
+  color: #ECECEC;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  text-align: left;
+  grid-column: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.infotextWelcome {
+  color: #ECECEC;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.infotextdark {
+  color: #161616;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.gridCode {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.gridPhotos {
+  grid-column: 4;
+  grid-row: 2;
 }

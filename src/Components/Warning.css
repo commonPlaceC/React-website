@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.warnColor {
+    color: #161616;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fffb009b;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}

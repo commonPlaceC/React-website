@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+.codespan {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 55px;
+    padding-left: 2vw;
+    text-align: center;
+}
+
+.codep {
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(32, 32, 32);
+    padding-left: 30px;
+    text-align: center;
+}
