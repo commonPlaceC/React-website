@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 .navbar {
-  background-color: rgb(255, 255, 255, .40);
+  background-color: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(15px);
   height: 80px;
   display: flex;
@@ -9,9 +9,12 @@
   position: sticky;
   top: 0;
   z-index: 999; 
-  box-shadow: 0px -30px 10px 25px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px -7px 10px 1px rgba(0, 0, 0, 0.5);
 }
 
+.inHeader {
+  float: right;
+}
 .navbar-container {
   display: flex;
   justify-content: center;
@@ -156,7 +159,8 @@ Nav.Link {
 
 .boxcolor {
   border-radius: 10px;
-  transition: all ease-in-out 250ms;
+  transition: all ease-in-out 270ms;
+  margin: 5px;
 }
 .boxcolor span {
   padding: 10px;
@@ -167,9 +171,8 @@ Nav.Link {
   
 }
 .boxcolor:hover {
-  background-color: rgb(0, 0, 0, .75);
+  background-color: rgba(0, 0, 0, 0.822);
   border-radius: 15px;
-  box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.281);
 }
 
 .boxcolor:hover span {

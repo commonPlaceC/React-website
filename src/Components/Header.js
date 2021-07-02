@@ -26,7 +26,7 @@ class Header extends Component {
                 alt="Logo"
               />
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav classname="mr-auto">
                 <Nav.Link href="/Contacts" className="boxcolor">
@@ -59,3 +59,6 @@ class Header extends Component {
 }
 
 export default Header;
+
+
+

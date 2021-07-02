@@ -5,7 +5,7 @@ export default class Warning extends Component {
     render() {
         return (
             <div>
-                <span className="warnColor">Alpha version, Tets only</span>
+                <span className="warnColor unselectable">Alpha version, Test only</span>
             </div>
         )
     }
