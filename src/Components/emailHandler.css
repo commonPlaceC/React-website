@@ -2,42 +2,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
 
 body {
-        height: 100vh;
         width: 100vw;
+        height: 90vh;
         margin: 0;
 }
 
 .box {
-        height: 100vh;
+        height: 90vh;
         width: 100vw;
+        margin: 0;
         overflow-y: scroll;
+        overflow-x: hidden;
         scroll-snap-type: y mandatory;
 }
 
 .item {
-        height: 100vh;
+        height: 90vh;
         width: 100vw;
         scroll-snap-align: start;
 }
-.item:nth-child(1) {
-        display: flex;
-        align-items: center;
-}
+
+
 .contactForm {
-        border-radius: 20px;
-        height: 490px;
-        width: 75%;
-        margin-left: auto;
-        margin-right: auto;
-        background: #161616;
-        box-shadow: 0px 2px 45px -10px rgba(0,0,0,0.5);
+        border-radius: 15px;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        background-color: rgb(31, 31, 31);
+        box-shadow: 0px 2px 45px -5px rgba(0,0,0,0.5);
 }
 .contact-form {
         padding: 15px;
         display: grid;
-        grid-gap: 10px;
+        grid-gap: 15px;
         grid-template-columns: 1fr 3fr 3fr;
-        grid-template-rows: 40px 40px 40px 40px 200px 40px;
+        grid-template-rows: 60px 40px 40px 40px 200px 40px;
 
 }
 
@@ -45,25 +43,44 @@ body {
         color: rgb(255, 255, 255);
         font-family: 'Montserrat', sans-serif;
         font-size: 25px;
-        text-align: center;
+        text-align: left;
 }
 input {
+        color: black;
         font-family: 'Roboto Mono', monospace;
         font-size: 15px;
         padding: 5px;
-        border-color: rgb(136, 136, 136);
         border-radius: 5px;
-        background-color: rgb(223, 223, 223); 
+        border-color: white;
+        background-color: rgb(255, 255, 255); 
+        box-shadow: 0px 2px 30px 2px rgba(0,0,0,0.5);
+        border-style: solid;
+}
+
+input:focus {
+        outline: none;
+        color: #CCC;
+        border-radius: 7px;
+        transition: all ease-in-out 200ms;
+        box-shadow: 0px 2px 20px 0px rgba(255, 255, 255, 0.2);
 }
 
 textarea {
+        color: rgb(236, 236, 236);
         resize: none;
         border-radius: 5px;
         padding: 5px;
         font-size: 17px;
-        border-color: rgb(136, 136, 136);
-        background-color: rgb(223, 223, 223); 
+        border-color: rgb(44, 44, 44);
+        background-color: rgb(31, 31, 31);
+        box-shadow: 0px 2px 30px 2px rgba(0,0,0,0.2);
         
+}
+
+textarea:focus {
+        transition: all ease-in-out 200ms;
+        outline: none;
+        box-shadow: 0px 2px 20px 0px rgba(255, 255, 255, 0.1);
 }
 
 .pColor {
@@ -79,6 +96,8 @@ textarea {
         font-size: 40px;
         text-align: center;
         margin-top: 40px;
+        grid-column: 2;
+        grid-row: 3;
 }
 
 .gridLabelZero {
@@ -119,18 +138,20 @@ textarea {
 .buttonSend {
         background-color: #161616;
         color: rgb(255, 255, 255);
-        margin-left: 10vw;
-        margin-right: 10vw;
+        border-color: rgb(58, 58, 58);
+        border-style: solid;
+        margin-left: 12vw;
+        margin-right: 12vw;
         font-size: 20px;
         grid-column-start: 2;
         grid-column-end: 4;
         grid-row: 6;
-        transition: all ease-in-out 100ms;
+        transition: all ease-in-out 70ms;
 }
 .buttonSend:hover{
-        border-radius: 15px;
+        border-radius: 12px;
         font-size: 20px;
-        box-shadow: 0px 4px 15px 1px rgba(255, 255, 255, 0.109);
+        background-color: #0f0f0f;
 }
 
 .buttonSend:active{
@@ -139,10 +160,16 @@ textarea {
         margin-left: 10vw;
         margin-right: 10vw;
         font-size: 20px;
-        box-shadow: 0px 4px 20px 1px rgba(255, 255, 255, 0.5);
+        box-shadow: 0px 4px 10px 1px rgba(255, 255, 255, 0.1);
 }
 
+.invertedSvg1 {
+        filter: invert(1);
+        grid-row: 3;
+}
 
-
-
-
+.centerEmail {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import Socials from './socials';
 import emailjs from 'emailjs-com';
 import "./emailHandler.css";
+import {VscMail} from 'react-icons/vsc';
 
 
 export default function ContactUs() {
@@ -21,22 +23,21 @@ export default function ContactUs() {
       <div>
         <div className="box">
           <div className="item">
-            <div className="contactForm">
+            <Socials/>
+            <p className="pColorEnd">Or email me:</p> 
+          </div>
+          <div className="item centerEmail">
+          <div className="contactForm">
               <form className="contact-form" onSubmit={sendEmail}>
                   <p className="gridLabelZero pColor">to alex.agarkov.753@gmail.com</p>
-                  <label className="textOut gridLabelOne">Name</label>
-                  <input type="text" name="user_name" className="gridInputOne" required/>
-                  <label className="textOut gridLabelTwo">Email</label>
-                  <input type="email" name="user_email" className="gridInputTwo" required/>
+                  <VscMail className="invertedSvg1" size="160px"/>
+                  <input type="text" name="user_name" className="gridInputOne" placeholder="Name" required/>
+                  <input type="email" name="user_email" className="gridInputTwo" placeholder="Email" required/>
                   <label className="textOut gridLabelThree">Message:</label>
                   <textarea name="message" maxLength="2000" className="gridTextArea" placeholder="Write here: 2000 symbols" required/>
                   <input type="submit" value="Send" className="buttonSend"/>
               </form>
             </div>
-            <p className="pColorEnd">You can also try:</p> 
-          </div>
-          <div className="item">
-            <h1>pageTwo</h1>
           </div>
         </div>
       </div>
