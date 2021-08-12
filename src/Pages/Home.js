@@ -6,22 +6,28 @@ import Photos from '../Components/Photos';
 import Warning from '../Components/Warning';
 import face from "../Components/img/face2.jpg";
 import Projects from '../Components/Projects';
+import "../App.css";
+
+const splash = useRef('.splash');
+
+document.addEventListener('DOMContentLoaded', (e)=>{
+  setTimeout(()=>{
+    splash.classList.add('displayNone')
+  }, 2000);
+})
 
 
 export default class Home extends Component {
     render() {
         return (
-            <div className="overflowx">
-              <div className="warning">
-                <Warning/>
+            <div>
+              <div className="splash">
+                <h1>Welcome To CommonPage</h1>
               </div>
+              <div className="warning"><Warning/></div>
               <div className="wrapper">
-                <div className="gridCode">
-                  <Code/>
-                </div>
-                <div className="gridPhotos">
-                  <Photos/>
-                </div>
+                <div className="gridCode"><Code/></div>
+                <div className="gridPhotos"><Photos/></div>
                 <div className="main">
                   <div className="centering">
                     <h1 className="infotextWelcome">Hey, I'm Agarkov Aleksey!</h1>

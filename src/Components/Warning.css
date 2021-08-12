@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-.warnColor {
+.warningTitle {
     color: #161616;
     font-family: 'Montserrat', sans-serif;
-    background-color: #fffb009b;
+    background-color: #fffc5c;
     border-radius: 5px;
     padding-left: 15px;
     padding-right: 15px;
