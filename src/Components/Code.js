@@ -5,7 +5,7 @@ export default class Code extends Component {
     render() {
         return (
             <div>
-                <span className="codespan unselectable">&lt;Code&gt;</span>
+                <h1 className="codespan unselectable">&lt;Code&gt;</h1>
                 <p className="codep unselectable">You can contact me if you have quastions<br/>
                     about programming thigs<br/>
                     Now i use: Python3,<br/>

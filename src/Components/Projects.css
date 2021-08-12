@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+.ProjectSample div:nth-child(1) {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 10px;
+}
+
+.ProjectSample div:nth-child(2) {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+

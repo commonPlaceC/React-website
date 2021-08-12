@@ -5,6 +5,7 @@ import Footer from '../Components/Footer';
 import Photos from '../Components/Photos';
 import Warning from '../Components/Warning';
 import face from "../Components/img/face2.jpg";
+import Projects from '../Components/Projects';
 
 
 export default class Home extends Component {
@@ -29,10 +30,8 @@ export default class Home extends Component {
                   <img src={face} alt="It's me" className="mainPhoto"/>
                 </div>
                 <p className="works">
-                  Here is some my works:
-                </p>
-                <p className="works1">
-                  Nothing here...
+                  <h1>My Projects</h1>
+                  <Projects/>
                 </p>
               </div>
             </div>
