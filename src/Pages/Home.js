@@ -34,6 +34,7 @@ export default class Home extends Component {
                   <Projects/>
                 </p>
               </div>
+              <Footer/>
             </div>
           );
     }

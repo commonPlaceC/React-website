@@ -2,7 +2,8 @@
 
 
 .mainFooter {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid rgb(119, 119, 119);
     padding-top : 3em;
     position: relative;
     bottom: 0;
@@ -10,6 +11,7 @@
     border-radius: 5px 5px 0px 0px;
 }
 .text {
-    color: white;
+    color: rgb(37, 37, 37);
+    font-weight: bold;
     font-family: 'Roboto Mono', monospace;
 }
