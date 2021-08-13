@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component, useRef } from 'react'
+import Splash from '../Components/Splash';
 import Form from '../Components/Form';
 import Code from '../Components/Code';
 import Footer from '../Components/Footer';
@@ -8,22 +9,14 @@ import face from "../Components/img/face2.jpg";
 import Projects from '../Components/Projects';
 import "../App.css";
 
-const splash = useRef('.splash');
-
-document.addEventListener('DOMContentLoaded', (e)=>{
-  setTimeout(()=>{
-    splash.classList.add('displayNone')
-  }, 2000);
-})
 
 
 export default class Home extends Component {
+  
     render() {
         return (
             <div>
-              <div className="splash">
-                <h1>Welcome To CommonPage</h1>
-              </div>
+              <Splash/>
               <div className="warning"><Warning/></div>
               <div className="wrapper">
                 <div className="gridCode"><Code/></div>
