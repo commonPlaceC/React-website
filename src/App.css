@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+/* Main calsses */
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -15,6 +16,8 @@ body {
   -ms-user-select: none;       
   user-select: none; 
 }
+
+/* Classes */
 
 .wrapper {
   height: 100vh;
@@ -137,7 +140,7 @@ body {
     blinker 750ms steps(31) infinite;
 }
 
-@keyframes typer{
+@keyframes typer {
   to {
     left: 100%;
   }

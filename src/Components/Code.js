@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import './Code.css'
+import React, { Component } from 'react';
+import './Code.css';
 
 export default class Code extends Component {
     render() {
