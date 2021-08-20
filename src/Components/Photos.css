@@ -6,7 +6,7 @@
     color: rgb(0, 0, 0);
     font-size: 55px;
     text-align: center;
-    animation: AppearOnOpenPhoto 1s;
+    animation: AppearOnOpenPhoto 1s, AppearOnOpenPhotoText 1s;
 }
 
 .photop {
@@ -18,10 +18,10 @@
 
 @keyframes AppearOnOpenPhoto {
     from  {
-        margin-left: 10%;
+        transform: translateX(15%);
     }
     to {
-        margin-left: 0%;
+        transform: translateX(0);
     }
 }
 

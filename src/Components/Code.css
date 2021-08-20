@@ -6,7 +6,7 @@
     color: rgb(0, 0, 0);
     font-size: 55px;
     text-align: center;
-    animation: AppearOnOpenCode 1s;
+    animation: AppearOnOpenCode 1s, AppearOnOpenCodeText 1s;
 }
 
 .codep {
@@ -18,10 +18,10 @@
 
 @keyframes AppearOnOpenCode {
     from  {
-        margin-right: 10%;
+        transform: translateX(-15%)
     }
     to {
-        margin-right: 0%;
+        transform: translateX(0)
     }
 }
 

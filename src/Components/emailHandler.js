@@ -3,6 +3,7 @@ import Socials from './socials';
 import emailjs from 'emailjs-com';
 import "./emailHandler.css";
 import {VscMail} from 'react-icons/vsc';
+import Footer from './Footer';
 
 
 export default function ContactUs() {
