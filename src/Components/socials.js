@@ -9,7 +9,7 @@ export default class socials extends Component {
     render() {
         return (
             <div className="cntr">
-                <h1 className="sh1">Socials</h1>
+                <h1 className="sh1 unselectable ">socials</h1>
                 <div className="wrapperSocials">
                     <a href="https://t.me/Phtmct">
                         <div className="sCircle telegram" >
