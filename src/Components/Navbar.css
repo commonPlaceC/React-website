@@ -151,6 +151,11 @@
   }
 }
 
+
+.navbarImg {
+  margin-bottom: 5px;
+}
+
 .navbarText:hover {
   color: #fde2e2;
   background-color: #242424;

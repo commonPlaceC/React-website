@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.downloadsTitle {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 80px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
