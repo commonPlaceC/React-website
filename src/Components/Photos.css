@@ -1,31 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
-.codespan {
+.photospan {
     font-family: 'Montserrat', sans-serif;
     color: rgb(0, 0, 0);
     font-size: 55px;
     text-align: center;
-    animation: AppearOnOpenCode 1s, AppearOnOpenCodeText 1s;
+    animation: AppearOnOpenPhoto 1s, AppearOnOpenPhotoText 1s;
 }
 
-.codep {
+.photop {
     font-family: 'Montserrat', sans-serif;
     color:rgb(32, 32, 32);
     text-align: center;
-    animation: AppearOnOpenCodeText 2.5s;
+    animation: AppearOnOpenPhotoText 2.5s;
 }
 
-@keyframes AppearOnOpenCode {
+@keyframes AppearOnOpenPhoto {
     from  {
-        transform: translateX(-15%)
+        transform: translateX(15%);
     }
     to {
-        transform: translateX(0)
+        transform: translateX(0);
     }
 }
 
-@keyframes AppearOnOpenCodeText {
+@keyframes AppearOnOpenPhotoText {
     from {
         opacity: 0;
     }

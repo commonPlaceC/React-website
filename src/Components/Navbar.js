@@ -30,15 +30,15 @@ class Header extends Component {
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav classname="mr-auto">
                 <Nav.Link href="/Contacts" className="boxcolor">
-                <img src={contacts} width="30" height="30"/>
+                <img src={contacts} width="30" height="30" className="navbarImg"/>
                   <span>Contacts</span>
                 </Nav.Link>
                 <Nav.Link href="/Downloads" className="boxcolor">
-                  <img src={download} width="30" height="30"/>
+                  <img src={download} width="30" height="30" className="navbarImg"/>
                   <span>Downloads</span>
                 </Nav.Link>
                 <Nav.Link href="/About" className="boxcolor">
-                  <img src={question} width="30" height="30"/>
+                  <img src={question} width="30" height="30" className="navbarImg"/>
                   <span>About</span>
                 </Nav.Link>
               </Nav>

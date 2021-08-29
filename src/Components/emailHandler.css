@@ -16,71 +16,22 @@ body {
         scroll-snap-type: y mandatory;
 }
 
-.item {
-        height: 90vh;
-        width: 100vw;
-        scroll-snap-align: start;
-}
-
-
-.contactForm {
-        border-radius: 15px;
-        margin-left: 10vw;
-        margin-right: 10vw;
-        background-color: rgb(31, 31, 31);
-        box-shadow: 0px 2px 45px -5px rgba(0,0,0,0.5);
-}
-.contact-form {
-        padding: 15px;
-        display: grid;
-        grid-gap: 15px;
-        grid-template-columns: 1fr 3fr 3fr;
-        grid-template-rows: 60px 40px 40px 40px 200px 40px;
-
-}
-
-.textOut {
-        color: rgb(255, 255, 255);
+.phoneInfo {
+        font-weight: bold;
+        margin: 65px;
         font-family: 'Montserrat', sans-serif;
-        font-size: 25px;
-        text-align: left;
-}
-input {
-        color: black;
-        font-family: 'Roboto Mono', monospace;
-        font-size: 15px;
-        padding: 5px;
-        border-radius: 5px;
-        border-color: white;
-        background-color: rgb(255, 255, 255); 
-        box-shadow: 0px 2px 30px 2px rgba(0,0,0,0.5);
-        border-style: solid;
+        font-size: 50px;
+        text-align: center;
 }
 
-input:focus {
-        outline: none;
-        color: #CCC;
-        border-radius: 7px;
-        transition: all ease-in-out 200ms;
-        box-shadow: 0px 2px 20px 0px rgba(255, 255, 255, 0.2);
+.phoneInfo a {
+        font-weight: 500;
+        font-size: 30px;
+        animation: AppearOnOpen 2s;
 }
 
-textarea {
-        color: rgb(236, 236, 236);
-        resize: none;
-        border-radius: 5px;
-        padding: 5px;
-        font-size: 17px;
-        border-color: rgb(44, 44, 44);
-        background-color: rgb(31, 31, 31);
-        box-shadow: 0px 2px 30px 2px rgba(0,0,0,0.2);
-        
-}
-
-textarea:focus {
-        transition: all ease-in-out 200ms;
-        outline: none;
-        box-shadow: 0px 2px 20px 0px rgba(255, 255, 255, 0.1);
+.phoneInfo a:hover {
+        color:rgb(224, 184, 120);
 }
 
 .pColor {
@@ -90,14 +41,31 @@ textarea:focus {
         text-align: center;
 }
 
-.pColorEnd {
+.mailP {
         color: rgb(0, 0, 0);
         font-family: 'Montserrat', sans-serif;
-        font-size: 40px;
+        font-weight: bold;
+        font-size: 50px;
         text-align: center;
         margin-top: 40px;
+        margin-bottom: 100px;
         grid-column: 2;
         grid-row: 3;
+}
+
+.mailP p {
+        display: inline;
+}
+
+.mailP a {
+        border-bottom: 2px solid black;
+        animation: AppearOnOpen 2s;
+}
+
+.mailP a:hover {
+        color:rgb(224, 184, 120);
+        border-bottom: 2px solid rgb(224, 184, 120);
+        transition: all ease-in-out 100ms;
 }
 
 .gridLabelZero {

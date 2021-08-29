@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+/* Main calsses */
 
 body {
   font-family: 'Montserrat', sans-serif;
+  overflow: overlay;
 }
 
 
@@ -14,6 +16,8 @@ body {
   -ms-user-select: none;       
   user-select: none; 
 }
+
+/* Classes */
 
 .wrapper {
   height: 100vh;
@@ -37,7 +41,17 @@ body {
   
 }
 
+.Link {
+  background-color: #2c2a29;
+  padding: 3px;
+  border-radius: 5px;
+  color: #ECECEC;
+  font-family: 'Roboto Mono', monospace;
+}
 
+.Link:hover {
+  color: rgb(233, 201, 150);
+}
 
 .main {
   border-radius: 20px;
@@ -126,7 +140,7 @@ body {
     blinker 750ms steps(31) infinite;
 }
 
-@keyframes typer{
+@keyframes typer {
   to {
     left: 100%;
   }
@@ -156,14 +170,20 @@ body {
 
 .works {
   grid-row: 5;
-  grid-column-start: 1;
-  grid-column-end: 6;
-  padding-top: 10px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 40px;
-  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 5;
   
 }
+
+.works h1{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
+}
+
 .works1 {
   grid-row: 6;
   grid-column-start: 1;
@@ -175,11 +195,16 @@ body {
   
 }
 
+
+/* ScrollBar Settings */
+
+
 ::-webkit-scrollbar {
   width: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
+  
   background-color: #a7a7a7;
   border-radius: 50px;
 }
