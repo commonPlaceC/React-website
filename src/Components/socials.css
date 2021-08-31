@@ -1,16 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .wrapperSocials {
-    align-self: center;
+    height: 200px;
+    width: 45vw;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template: 1fr 1fr / 1fr 1fr;
     align-items: center;
     padding: 10px;
     padding-left: 1.5vw;
     border-radius: 5px;
-    height: 200px;
-    width: 45vw;
     margin-left: 28%;
     background: #e7e7e7;
     box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.15);
@@ -34,10 +32,8 @@
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-gap: 5px;
-    align-items: center;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
+    font: 17px 'Montserrat', sans-serif;
     background:#ececec;
     border-radius: 50px;
     padding: 7px;
@@ -71,12 +67,9 @@
 }
 
 .sh1 {
-    margin-top: 30px;
-    margin-bottom: 70px;
-    font-weight: bold;
+    margin: 30px 0px 70px 0px;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
+    font: bold 50px 'Montserrat', sans-serif;
     color: rgb(31, 31, 31);
 }
 

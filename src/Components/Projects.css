@@ -3,15 +3,13 @@
 
 
 .ProjectSample div:nth-child(1) {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 35px;
+    font: 35px 'Montserrat', sans-serif;
     border-bottom: 1px solid #aaa;
     margin-bottom: 10px;
 }
 
 .ProjectSample div:nth-child(2) {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font: 20px 'Montserrat', sans-serif;
 }
 
 
