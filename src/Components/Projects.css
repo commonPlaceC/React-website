@@ -2,14 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
-.ProjectSample div:nth-child(1) {
+.ProjectSample h1 {
+    text-align: left;
     font: 35px 'Montserrat', sans-serif;
     border-bottom: 1px solid #aaa;
-    margin-bottom: 10px;
 }
 
-.ProjectSample div:nth-child(2) {
+.ProjectSample div{
     font: 20px 'Montserrat', sans-serif;
+    margin: 10px;
+    margin-bottom: 35px;
 }
 
 

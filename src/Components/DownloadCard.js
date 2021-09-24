@@ -1,4 +1,4 @@
-import React, { useState} from 'react';
+import React, { useState } from 'react';
 import './DownloadCard.css';
 import { FiDownload } from "react-icons/fi";
 

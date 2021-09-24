@@ -4,7 +4,6 @@ import { FaTelegramPlane, FaInstagram, FaGithub, FaVk } from 'react-icons/fa';
 import "./socials.css";
 
 
-
 export default class socials extends Component {
     render() {
         return (
@@ -30,10 +29,10 @@ export default class socials extends Component {
                         </div>
                     </a>
 
-                    <a href="https://github.com/Taileduser">
+                    <a href="https://github.com/commonPlaceC">
                         <div className="sCircle github">
                             <FaGithub size = "40px"/>
-                            <p className="cntr">Taileduser</p>
+                            <p className="cntr">commonPlaceC</p>
                         </div>
                     </a>
                 </div>
